@@ -1,0 +1,162 @@
+/** Shop page design **/
+body {
+  font-family: "Helvetica";
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-family: "HelveticaBlod";
+}
+
+#top {
+  .navbar {
+    #top_menu_container {
+      button {
+        border: 1px solid black;
+        border-radius: 35px;
+        padding: 10px;
+        margin-right: 1rem !important;
+        width: auto;
+      }
+      .btn_cta {
+        padding-right: 25px;
+        border-radius: 25px;
+        padding-left: 29px;
+        padding-top: 12px;
+        background-color: #3e3e46;
+        padding-bottom: 12px;
+        border: 0;
+      }
+    }
+  }
+}
+
+.first_section {
+  .row_values {
+    .heading {
+      .sub_heading {
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+.our_values {
+  padding-bottom: 80px !important;
+  padding-top: 56px !important;
+  .row_values {
+    .first_value {
+      padding-bottom: 1.5rem !important;
+      .card {
+        border-radius: 10px !important;
+      }
+    }
+    .second_value {
+      padding-bottom: 1.5rem !important;
+      .card {
+        border-radius: 10px !important;
+      }
+    }
+    .third_value {
+      padding-bottom: 1.5rem !important;
+      .card {
+        border-radius: 10px !important;
+      }
+    }
+  }
+}
+
+#bottom {
+  .footer {
+    .container {
+      .row {
+        .cit_img_link {
+          .cit_image {
+            background: none 0% 0% repeat scroll rgba(0, 0, 0, 0) !important;
+            width: 40% !important;
+          }
+          .cit_link {
+            color: #f06d22;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.first_section .heading .sub_heading {
+  @include media-breakpoint-down(sm) {
+    font-size: 30px !important;
+  }
+}
+
+.details .our_values {
+  @include media-breakpoint-down(sm) {
+    font-size: 25px !important;
+  }
+}
+
+.details .sub_details {
+  @include media-breakpoint-down(sm) {
+    font-size: 15px !important;
+  }
+}
+
+.btn_cta {
+  @include media-breakpoint-down(sm) {
+    font-size: 14px;
+    padding: 10px 8px !important;
+  }
+}
+
+.s_three_columns {
+    .card-body {
+        background-color: transparent !important;
+        padding: 0 1rem;
+    }
+}
+#top_menu_container {
+    max-width: 100%;
+}
+.s_text_image {
+    @include media-breakpoint-down(sm) {
+        background-size: cover !important;
+    }
+}
+.o_wevent_index .o_wevent_events_list.opt_event_list_cards_bg {
+    background-color: #f9f7e7 !important;
+}
+.o_footer_copyright_name {
+    font-size: 18px;
+    line-height: 3.5;
+    @include media-breakpoint-down(md) {
+        display: block;
+    }
+}
+.footer-main {
+    @include media-breakpoint-up(md) {
+        display: flex;
+        justify-content: space-between;
+    }
+    > span {
+        @include media-breakpoint-down(md) {
+            display: block;
+        }
+        a {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+}
