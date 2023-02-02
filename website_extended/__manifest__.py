@@ -2,6 +2,7 @@
 {
     # Module information
     "name": "eCommerce Extended",
+    'version': '15.0.0',
     "summary": "eCommerce Extended for Development",
     'license': 'OPL-1',
     "category": "eCommerce",
